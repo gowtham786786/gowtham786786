@@ -112,7 +112,7 @@
       <p align="center">A highly interactive and modern advanced calculator application featuring dynamic theming (AI, Cyberpunk, etc.), a sleek responsive UI, and robust state management for complex mathematical evaluations.</p>
       <p align="center">
         <br /><br />
-        <a href="YOUR_GITHUB_REPO_URL"><img src="https://img.shields.io/badge/GitHub-Repo-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Repo" /></a>
+        <a href="https://github.com/gowtham786786/Gowtham-calc"><img src="https://img.shields.io/badge/GitHub-Repo-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Repo" /></a>
         <a href="https://gowtham-calc.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Live" /></a>
       </p>
     </td>
