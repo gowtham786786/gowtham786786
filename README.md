@@ -183,7 +183,7 @@
 
 <div align="center">
   <p>
-    <a href="YOUR_LINKEDIN_HANDLE"><img src="https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="LinkedIn" /></a>
+    <a href="https://www.linkedin.com/in/gowtham-venkata-reddy-139248333/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="LinkedIn" /></a>
     <a href="mailto:2300032792cseird@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-0D1117?style=for-the-badge&logo=gmail&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Email" /></a>
     <img src="https://img.shields.io/badge/Phone-Call_Me-0D1117?style=for-the-badge&logo=phone&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Phone" />
     <a href="https://github.com/gowtham786786"><img src="https://img.shields.io/badge/GitHub-Follow-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="GitHub" /></a>

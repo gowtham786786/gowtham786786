@@ -170,12 +170,12 @@
       <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.2s" fill="freeze" />
       <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.2s" fill="freeze" />
     </rect>
-    <text x="420" y="440" class="terminal-text" font-size="14" fill="#24292f">.&#160;Grid.Portfolio:&#160;...............&#160;YOUR_PORTFOLIO_URL</text>
+    <text x="420" y="440" class="terminal-text" font-size="14" fill="#24292f">.&#160;Grid.Portfolio:&#160;...............&#160;gowtham-portfolio-sooty.vercel.app</text>
     <rect x="420" y="425" width="560" height="25" fill="#ffffff">
       <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.2800000000000002s" fill="freeze" />
       <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.2800000000000002s" fill="freeze" />
     </rect>
-    <text x="420" y="460" class="terminal-text" font-size="14" fill="#24292f">.&#160;Grid.LinkedIn:&#160;................&#160;YOUR_LINKEDIN_HANDLE</text>
+    <text x="420" y="460" class="terminal-text" font-size="14" fill="#24292f">.&#160;Grid.LinkedIn:&#160;................&#160;in/gowtham-venkata-reddy-139248333</text>
     <rect x="420" y="445" width="560" height="25" fill="#ffffff">
       <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.3600000000000003s" fill="freeze" />
       <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.3600000000000003s" fill="freeze" />
