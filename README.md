@@ -38,21 +38,44 @@
 
 <br />
 
-<h2 align="center"><code>&gt; ls -l /tech_stack/</code></h2>
-
 <div align="center">
-  <p><b>Programming Languages</b></p>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,python,c,js" alt="Languages" /></a>
-  <br /><br />
-  <p><b>Frontend Development</b></p>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=react,html,css" alt="Frontend" /></a>
-  <br /><br />
-  <p><b>Backend & Database</b></p>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,firebase,mongodb" alt="Backend" /></a>
-  <br /><br />
-  <p><b>Tools & Cloud</b></p>
-  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=uipath,git,github,vscode,aws,oracle" alt="Tools" /></a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Cascadia+Code&weight=600&size=22&pause=1000&color=00b4d8&center=true&vCenter=true&width=800&lines=%3E+ls+-l+%2Ftech_stack%2F;%3E+Initializing+Toolchain...;%3E+Loading+Core+Languages..." alt="Typing SVG" />
 </div>
+
+<table align="center" width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <b>💻 Programming Languages</b><br><br>
+      <img src="https://img.shields.io/badge/Java-0D1117?style=for-the-badge&logo=openjdk&logoColor=00b4d8&color=0D1117" alt="Java" />
+      <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00b4d8&color=0D1117" alt="Python" />
+      <img src="https://img.shields.io/badge/C-0D1117?style=for-the-badge&logo=c&logoColor=00b4d8&color=0D1117" alt="C" />
+      <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=00b4d8&color=0D1117" alt="JavaScript" />
+    </td>
+    <td width="50%" align="center">
+      <b>🌐 Frontend Development</b><br><br>
+      <img src="https://img.shields.io/badge/React.js-0D1117?style=for-the-badge&logo=react&logoColor=00b4d8&color=0D1117" alt="React" />
+      <img src="https://img.shields.io/badge/HTML5-0D1117?style=for-the-badge&logo=html5&logoColor=00b4d8&color=0D1117" alt="HTML5" />
+      <img src="https://img.shields.io/badge/CSS3-0D1117?style=for-the-badge&logo=css3&logoColor=00b4d8&color=0D1117" alt="CSS3" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <br><b>🗄️ Backend & Database</b><br><br>
+      <img src="https://img.shields.io/badge/Node.js-0D1117?style=for-the-badge&logo=nodedotjs&logoColor=00b4d8&color=0D1117" alt="Node.js" />
+      <img src="https://img.shields.io/badge/Firebase-0D1117?style=for-the-badge&logo=firebase&logoColor=00b4d8&color=0D1117" alt="Firebase" />
+      <img src="https://img.shields.io/badge/MongoDB-0D1117?style=for-the-badge&logo=mongodb&logoColor=00b4d8&color=0D1117" alt="MongoDB" />
+    </td>
+    <td width="50%" align="center">
+      <br><b>🛠️ Tools & Cloud</b><br><br>
+      <img src="https://img.shields.io/badge/UiPath-0D1117?style=for-the-badge&logo=uipath&logoColor=00b4d8&color=0D1117" alt="UiPath" />
+      <img src="https://img.shields.io/badge/Git-0D1117?style=for-the-badge&logo=git&logoColor=00b4d8&color=0D1117" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=0D1117" alt="GitHub" />
+      <img src="https://img.shields.io/badge/VS_Code-0D1117?style=for-the-badge&logo=visualstudiocode&logoColor=00b4d8&color=0D1117" alt="VS Code" />
+      <img src="https://img.shields.io/badge/AWS-0D1117?style=for-the-badge&logo=amazonwebservices&logoColor=00b4d8&color=0D1117" alt="AWS" />
+      <img src="https://img.shields.io/badge/Oracle-0D1117?style=for-the-badge&logo=oracle&logoColor=00b4d8&color=0D1117" alt="Oracle" />
+    </td>
+  </tr>
+</table>
 
 <br />
 
