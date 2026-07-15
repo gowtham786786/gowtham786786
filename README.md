@@ -101,19 +101,19 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">AI E-Commerce Web App</h3>
-      <p align="center"><i>Intelligent Product Recommendation Engine</i></p>
+      <h3 align="center">Advanced Calculator</h3>
+      <p align="center"><i>Modern Theme-Based Calculator Application</i></p>
       <p align="center">
         <img src="https://img.shields.io/badge/React.js-0D1117?style=flat-square&logo=react&logoColor=00b4d8" alt="React" />
-        <img src="https://img.shields.io/badge/JavaScript-0D1117?style=flat-square&logo=javascript&logoColor=00b4d8" alt="JS" />
+        <img src="https://img.shields.io/badge/TypeScript-0D1117?style=flat-square&logo=typescript&logoColor=00b4d8" alt="TS" />
         <img src="https://img.shields.io/badge/HTML/CSS-0D1117?style=flat-square&logo=html5&logoColor=00b4d8" alt="HTML/CSS" />
-        <img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=00b4d8" alt="Git" />
+        <img src="https://img.shields.io/badge/Vite-0D1117?style=flat-square&logo=vite&logoColor=00b4d8" alt="Vite" />
       </p>
-      <p align="center">Full-stack web app with an intelligent product recommendation engine, modular component architecture, and optimized performance for a personalized shopping experience.</p>
+      <p align="center">A highly interactive and modern advanced calculator application featuring dynamic theming (AI, Cyberpunk, etc.), a sleek responsive UI, and robust state management for complex mathematical evaluations.</p>
       <p align="center">
         <br /><br />
         <a href="YOUR_GITHUB_REPO_URL"><img src="https://img.shields.io/badge/GitHub-Repo-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Repo" /></a>
-        <a href="YOUR_LIVE_DEMO_LINK"><img src="https://img.shields.io/badge/Live-Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Live" /></a>
+        <a href="https://gowtham-calc.vercel.app/"><img src="https://img.shields.io/badge/Live-Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Live" /></a>
       </p>
     </td>
   </tr>
