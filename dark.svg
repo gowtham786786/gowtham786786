@@ -1,63 +1,215 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="950" height="560">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
   <style>
     .terminal-text { font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace; }
-    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-    .blinking { animation: blink 2s step-end infinite; }
   </style>
-  <rect width="100%" height="100%" rx="10" fill="#0D1117" stroke="#30363d" stroke-width="2"/>
-  
-  <!-- Window Chrome -->
-  <circle cx="25" cy="25" r="6" fill="#ff5f56" />
-  <circle cx="45" cy="25" r="6" fill="#ffbd2e" />
-  <circle cx="65" cy="25" r="6" fill="#27c93f" />
-  <text x="475.0" y="30" class="terminal-text" font-size="14" fill="#c9d1d9" text-anchor="middle">gowtham@devos ~ % ./profile.sh --live</text>
-  <text x="925" y="30" class="terminal-text blinking" font-size="14" font-weight="bold" fill="#00b4d8" text-anchor="end">● SCANNING</text>
-  <line x1="0" y1="50" x2="950" y2="50" stroke="#30363d" stroke-width="1"/>
-  
-  <!-- VISUAL.MAP Header -->
-  <text x="40" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="#00b4d8">VISUAL.MAP</text>
-    <text x="40" y="120" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-  <text x="40" y="136" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@@%+=+++*%@@@@@@@@@@@@@@@@</text>
-  <text x="40" y="152" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@#=::...&#160;..:-+%@@@@@@@@@@@@@</text>
-  <text x="40" y="168" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@#:......&#160;&#160;&#160;....=@@@@@@@@@@@@</text>
-  <text x="40" y="184" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@%.&#160;...:-===-.....-@@@@@@@@@@@</text>
-  <text x="40" y="200" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@*..&#160;.=+*****=:...:@@@@@@@@@@@</text>
-  <text x="40" y="216" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@-&#160;&#160;-----++----.&#160;*@@@@@@@@@@@</text>
-  <text x="40" y="232" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@%:.=====+*===+--@@@@@@@@@@@@</text>
-  <text x="40" y="248" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@*:+***++*+***=*@@@@@@@@@@@@</text>
-  <text x="40" y="264" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@=-+++=---=++-%@@@@@@@@@@@@</text>
-  <text x="40" y="280" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@=:-:-===---*@@@@@@@@@@@@@</text>
-  <text x="40" y="296" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@@-..--::-:=@@@@@@@@@@@@@@</text>
-  <text x="40" y="312" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@#*-.....:-**%@@@@@@@@@@@@</text>
-  <text x="40" y="328" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@#+:-@#+----+#@=.-+#%@@@@@@@@</text>
-  <text x="40" y="344" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@%#*+-:...:%@@%*+#@@@:.....:-+*#@@@</text>
-  <text x="40" y="360" class="terminal-text" font-size="12" fill="#c9d1d9">@@@*=-:.........*@@=::-%@#...........:=@</text>
-  <text x="40" y="376" class="terminal-text" font-size="12" fill="#c9d1d9">@@%.............=@@%:.#@@+.............*</text>
-  <text x="40" y="392" class="terminal-text" font-size="12" fill="#c9d1d9">@@=.............:@@%:.+@@-.............:</text>
-  <text x="40" y="408" class="terminal-text" font-size="12" fill="#c9d1d9">@%...............*@*..-@#...............</text>
-  <text x="40" y="424" class="terminal-text" font-size="12" fill="#c9d1d9">@=...............-@+.::@-...............</text>
-  <text x="40" y="440" class="terminal-text" font-size="12" fill="#c9d1d9">%.................#=..:*...........&#160;....</text>
-  <text x="400" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="#00b4d8">SYSTEM.INFO</text>
-  <text x="400" y="120" class="terminal-text" font-size="14" fill="#c9d1d9">gowtham@devos&#160;—</text>
-  <text x="400" y="140" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Subject:&#160;.......................&#160;Karri&#160;Gowtham&#160;Venkata&#160;Reddy</text>
-  <text x="400" y="160" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Role:&#160;.................&#160;Final-Year&#160;CSE&#160;Student&#160;·&#160;Software&#160;Developer</text>
-  <text x="400" y="180" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Origin:&#160;...........................&#160;Andhra&#160;Pradesh,&#160;India</text>
-  <text x="400" y="200" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Education:&#160;.................&#160;B.Tech&#160;CSE,&#160;KL&#160;University,&#160;CGPA/91%</text>
-  <text x="400" y="220" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Status:&#160;..........&#160;Building&#160;Anti-Gravity&#160;AI&#160;·&#160;Job&#160;Hunting&#160;·&#160;Learning</text>
-  <text x="400" y="240" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;ToolChain:&#160;.....................&#160;VS&#160;Code,&#160;Git,&#160;GitHub</text>
-  <text x="400" y="260" class="terminal-text" font-size="14" fill="#c9d1d9"></text>
-  <text x="400" y="280" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Core.Lang:&#160;................&#160;Java,&#160;Python,&#160;C,&#160;JavaScript</text>
-  <text x="400" y="300" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Core.Frontend:&#160;.................&#160;React.js,&#160;HTML5,&#160;CSS3</text>
-  <text x="400" y="320" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Core.Backend:&#160;.................&#160;Node.js,&#160;Firebase</text>
-  <text x="400" y="340" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Core.Database:&#160;.....................&#160;MongoDB</text>
-  <text x="400" y="360" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Core.Infra:&#160;..............&#160;UiPath&#160;(RPA),&#160;AWS,&#160;Oracle&#160;Cloud</text>
-  <text x="400" y="380" class="terminal-text" font-size="14" fill="#c9d1d9"></text>
-  <text x="400" y="400" class="terminal-text" font-size="14" fill="#c9d1d9">-&#160;Contact&#160;————————————</text>
-  <text x="400" y="420" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Grid.Mail:&#160;...............&#160;2300032792cseird@gmail.com</text>
-  <text x="400" y="440" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Grid.Portfolio:&#160;...............&#160;YOUR_PORTFOLIO_URL</text>
-  <text x="400" y="460" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Grid.LinkedIn:&#160;................&#160;YOUR_LINKEDIN_HANDLE</text>
-  <text x="400" y="480" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Grid.Github:&#160;...................&#160;gowtham786786</text>
-  <text x="400" y="500" class="terminal-text" font-size="14" fill="#c9d1d9"></text>
-  <text x="400" y="520" class="terminal-text" font-size="14" fill="#c9d1d9">-&#160;Live&#160;Stats&#160;————————————</text>
-  <text x="400" y="540" class="terminal-text" font-size="14" fill="#c9d1d9">&#160;&#160;See&#160;live&#160;GitHub&#160;stats&#160;badges&#160;below&#160;in&#160;README&#160;↓</text>
+  <defs>
+    <!-- Animated Gradient -->
+    <linearGradient id="animGrad_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b4d8">
+        <animate attributeName="stop-color" values="#00b4d8;#90e0ef;#00b4d8" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#90e0ef">
+        <animate attributeName="stop-color" values="#90e0ef;#00b4d8;#90e0ef" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Reveal Mask ClipPath (slides open) -->
+    <clipPath id="slideOpen_dark">
+      <rect x="0" y="0" width="1000" height="0">
+        <animate attributeName="height" from="0" to="560" dur="1s" begin="0s" fill="freeze" />
+      </rect>
+    </clipPath>
+    
+    <!-- Typing ClipPaths for each line -->
+    <clipPath id="typeLine_dark_0">
+      <rect x="420" y="85" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.0s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_1">
+      <rect x="420" y="105" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.08s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_2">
+      <rect x="420" y="125" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.16s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_3">
+      <rect x="420" y="145" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.24s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_4">
+      <rect x="420" y="165" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.32s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_5">
+      <rect x="420" y="185" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.4s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_6">
+      <rect x="420" y="205" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.48s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_7">
+      <rect x="420" y="225" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.56s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_8">
+      <rect x="420" y="245" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.6400000000000001s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_9">
+      <rect x="420" y="265" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.72s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_10">
+      <rect x="420" y="285" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.8s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_11">
+      <rect x="420" y="305" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.88s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_12">
+      <rect x="420" y="325" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="1.96s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_13">
+      <rect x="420" y="345" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.04s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_14">
+      <rect x="420" y="365" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.12s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_15">
+      <rect x="420" y="385" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.2s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_16">
+      <rect x="420" y="405" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.2800000000000002s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_17">
+      <rect x="420" y="425" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.3600000000000003s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_18">
+      <rect x="420" y="445" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.44s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_19">
+      <rect x="420" y="465" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.52s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_20">
+      <rect x="420" y="485" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.6s" fill="freeze" />
+      </rect>
+    </clipPath>
+    <clipPath id="typeLine_dark_21">
+      <rect x="420" y="505" width="0" height="25">
+        <animate attributeName="width" from="0" to="550" dur="0.08s" begin="2.6799999999999997s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <!-- Pulsing Border Rect -->
+  <rect width="100%" height="100%" rx="10" fill="#0D1117" stroke="url(#animGrad_dark)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <g clip-path="url(#slideOpen_dark)">
+    
+    <!-- Moving Scanline -->
+    <rect x="0" y="-50" width="100%" height="50" fill="url(#animGrad_dark)" opacity="0.1">
+      <animateTransform attributeName="transform" type="translate" from="0 -50" to="0 610" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Window Chrome -->
+    <circle cx="25" cy="25" r="6" fill="#ff5f56" />
+    <circle cx="45" cy="25" r="6" fill="#ffbd2e" />
+    <circle cx="65" cy="25" r="6" fill="#27c93f" />
+    <text x="500.0" y="30" class="terminal-text" font-size="14" fill="#c9d1d9" text-anchor="middle">gowtham@devos ~ % ./profile.sh --live</text>
+    
+    <text x="975" y="30" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_dark)" text-anchor="end">● SCANNING
+      <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" />
+    </text>
+    <line x1="0" y1="50" x2="1000" y2="50" stroke="#30363d" stroke-width="1"/>
+    
+    <!-- VISUAL.MAP Header -->
+    <text x="40" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_dark)">VISUAL.MAP</text>
+    <text x="40" y="120" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="40" y="136" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@@@@%**####@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="40" y="152" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@#+-:.....:-=*%@@@@@@@@@@@@@@@@</text>
+    <text x="40" y="168" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@=....:.&#160;&#160;&#160;&#160;....=#@@@@@@@@@@@@@@</text>
+    <text x="40" y="184" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@%-...&#160;&#160;......&#160;&#160;....+@@@@@@@@@@@@@</text>
+    <text x="40" y="200" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@+..&#160;..:=++**+-......%@@@@@@@@@@@@</text>
+    <text x="40" y="216" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@=&#160;.&#160;.-++*****+=:....%@@@@@@@@@@@@</text>
+    <text x="40" y="232" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@:&#160;&#160;:=----=+-:---.&#160;=@@@@@@@@@@@@@</text>
+    <text x="40" y="248" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@%:&#160;==--==+*====+-:@@@@@@@@@@@@@@</text>
+    <text x="40" y="264" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@*:=****++******=+@@@@@@@@@@@@@@</text>
+    <text x="40" y="280" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@%--++**+---+**+-*@@@@@@@@@@@@@@</text>
+    <text x="40" y="296" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@%=:==---=---=-=@@@@@@@@@@@@@@@</text>
+    <text x="40" y="312" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@@@-.::==-==-:-%@@@@@@@@@@@@@@@</text>
+    <text x="40" y="328" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@@@#:..:::::::+@@@@@@@@@@@@@@@@</text>
+    <text x="40" y="344" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@@@@@*#+-:....:-=#+*@@@@@@@@@@@@@@</text>
+    <text x="40" y="360" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@@@@@@%#+:.%@#=----=*%@-.:=+#%@@@@@@@@@</text>
+    <text x="40" y="376" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@@@@@%#*=-.....*@@@%*+*%@@%:......:-+*%@@@@</text>
+    <text x="40" y="392" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@@*+-:..........-@@@+-:-*@@#............:-*@</text>
+    <text x="40" y="408" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@+..............:%@%*:.=#@@+...............%</text>
+    <text x="40" y="424" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@@:...............*@@@-.+@@@:...............-</text>
+    <text x="40" y="440" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@@+................-@@*.::%@#.................</text>
+    <text x="40" y="456" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@%..................%@+.:.#@-.................</text>
+    <text x="40" y="472" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@+..................=@=.:.*#.............&#160;....</text>
+    <text x="40" y="488" class="terminal-text" font-size="12" fill="url(#animGrad_dark)">@:...................%=.:.+=............&#160;&#160;....</text>
+
+    <text x="420" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_dark)">SYSTEM.INFO</text>
+    <text x="420" y="120" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_0)">gowtham@devos&#160;—</text>
+    <text x="420" y="140" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_1)">.&#160;Subject:&#160;..........................&#160;Karri&#160;Gowtham&#160;Venkata&#160;Reddy</text>
+    <text x="420" y="160" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_2)">.&#160;Role:&#160;................&#160;Final-Year&#160;CSE&#160;Student&#160;·&#160;Software&#160;Developer</text>
+    <text x="420" y="180" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_3)">.&#160;Origin:&#160;...........................&#160;Andhra&#160;Pradesh,&#160;India</text>
+    <text x="420" y="200" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_4)">.&#160;Education:&#160;................&#160;B.Tech&#160;CSE,&#160;KL&#160;University,&#160;CGPA&#160;91%</text>
+    <text x="420" y="220" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_5)">.&#160;Status:&#160;..........&#160;Building&#160;Anti-Gravity&#160;AI&#160;·&#160;Job&#160;Hunting&#160;·&#160;Learning</text>
+    <text x="420" y="240" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_6)">.&#160;ToolChain:&#160;.....................&#160;VS&#160;Code,&#160;Git,&#160;GitHub,&#160;Postman</text>
+    <text x="420" y="260" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_7)"></text>
+    <text x="420" y="280" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_8)">.&#160;Core.Lang:&#160;................&#160;Java,&#160;Python,&#160;C,&#160;JavaScript</text>
+    <text x="420" y="300" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_9)">.&#160;Core.Frontend:&#160;.................&#160;React.js,&#160;HTML5,&#160;CSS3</text>
+    <text x="420" y="320" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_10)">.&#160;Core.Backend:&#160;.................&#160;Node.js,&#160;Firebase</text>
+    <text x="420" y="340" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_11)">.&#160;Core.Database:&#160;.....................&#160;MongoDB</text>
+    <text x="420" y="360" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_12)">.&#160;Core.Infra:&#160;..............&#160;UiPath&#160;(RPA),&#160;AWS,&#160;Oracle&#160;Cloud</text>
+    <text x="420" y="380" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_13)"></text>
+    <text x="420" y="400" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_14)">-&#160;Contact&#160;————————————</text>
+    <text x="420" y="420" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_15)">.&#160;Grid.Mail:&#160;...............&#160;2300032792cseird@gmail.com</text>
+    <text x="420" y="440" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_16)">.&#160;Grid.Portfolio:&#160;...............&#160;YOUR_PORTFOLIO_URL</text>
+    <text x="420" y="460" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_17)">.&#160;Grid.LinkedIn:&#160;................&#160;YOUR_LINKEDIN_HANDLE</text>
+    <text x="420" y="480" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_18)">.&#160;Grid.Github:&#160;...................&#160;gowtham786786</text>
+    <text x="420" y="500" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_19)"></text>
+    <text x="420" y="520" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_20)">-&#160;Live&#160;Stats&#160;————————————</text>
+    <text x="420" y="540" class="terminal-text" font-size="14" fill="#c9d1d9" clip-path="url(#typeLine_dark_21)">&#160;&#160;See&#160;live&#160;GitHub&#160;stats&#160;badges&#160;below&#160;in&#160;README&#160;↓</text>
+
+    <rect x="420" y="540" width="10" height="18" fill="#00b4d8" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" begin="2.76s" repeatCount="indefinite" />
+    </rect>
+
+  </g>
 </svg>
