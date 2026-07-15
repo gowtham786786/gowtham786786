@@ -73,7 +73,7 @@
       </p>
       <p align="center">Full-stack face-recognition-based smart attendance system with three roles — Student, Faculty, Super Admin — including secure authentication, facial registration, real-time attendance tracking, analytics, OTP verification, and PDF/Excel report generation.</p>
       <p align="center">
-        <a href="YOUR_GITHUB_REPO_URL"><img src="https://img.shields.io/badge/GitHub-Repo-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Repo" /></a>
+        <a href="https://github.com/gowtham786786/Gowtham-ai-attendance-/tree/main"><img src="https://img.shields.io/badge/GitHub-Repo-0D1117?style=for-the-badge&logo=github&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Repo" /></a>
         <a href="YOUR_LIVE_DEMO_LINK"><img src="https://img.shields.io/badge/Live-Demo-0D1117?style=for-the-badge&logo=vercel&logoColor=00b4d8&color=00b4d8&labelColor=0D1117" alt="Live" /></a>
       </p>
     </td>
