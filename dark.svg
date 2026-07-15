@@ -16,18 +16,27 @@
   
   <!-- VISUAL.MAP Header -->
   <text x="40" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="#00b4d8">VISUAL.MAP</text>
-    <text x="40" y="120" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.::::.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="136" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;.::::::::.&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="152" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;::::::::::::&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="168" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;::::::::::::&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="184" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;::::::::::&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="200" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;::::::&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="216" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;::::::&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="232" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;&#160;&#160;.::::::::::.&#160;&#160;&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="248" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;&#160;&#160;.::::::::::::::.&#160;&#160;&#160;&#160;</text>
-  <text x="40" y="264" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;&#160;.::::::::::::::::::.&#160;&#160;</text>
-  <text x="40" y="280" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;::::::::::::::::::::::&#160;</text>
-  <text x="40" y="296" class="terminal-text" font-size="12" fill="#c9d1d9">&#160;::::::::::::::::::::::&#160;</text>
+    <text x="40" y="120" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  <text x="40" y="136" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@@%+=+++*%@@@@@@@@@@@@@@@@</text>
+  <text x="40" y="152" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@#=::...&#160;..:-+%@@@@@@@@@@@@@</text>
+  <text x="40" y="168" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@#:......&#160;&#160;&#160;....=@@@@@@@@@@@@</text>
+  <text x="40" y="184" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@%.&#160;...:-===-.....-@@@@@@@@@@@</text>
+  <text x="40" y="200" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@*..&#160;.=+*****=:...:@@@@@@@@@@@</text>
+  <text x="40" y="216" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@-&#160;&#160;-----++----.&#160;*@@@@@@@@@@@</text>
+  <text x="40" y="232" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@%:.=====+*===+--@@@@@@@@@@@@</text>
+  <text x="40" y="248" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@*:+***++*+***=*@@@@@@@@@@@@</text>
+  <text x="40" y="264" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@=-+++=---=++-%@@@@@@@@@@@@</text>
+  <text x="40" y="280" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@=:-:-===---*@@@@@@@@@@@@@</text>
+  <text x="40" y="296" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@@-..--::-:=@@@@@@@@@@@@@@</text>
+  <text x="40" y="312" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@@@@#*-.....:-**%@@@@@@@@@@@@</text>
+  <text x="40" y="328" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@@@@@@@#+:-@#+----+#@=.-+#%@@@@@@@@</text>
+  <text x="40" y="344" class="terminal-text" font-size="12" fill="#c9d1d9">@@@@@@%#*+-:...:%@@%*+#@@@:.....:-+*#@@@</text>
+  <text x="40" y="360" class="terminal-text" font-size="12" fill="#c9d1d9">@@@*=-:.........*@@=::-%@#...........:=@</text>
+  <text x="40" y="376" class="terminal-text" font-size="12" fill="#c9d1d9">@@%.............=@@%:.#@@+.............*</text>
+  <text x="40" y="392" class="terminal-text" font-size="12" fill="#c9d1d9">@@=.............:@@%:.+@@-.............:</text>
+  <text x="40" y="408" class="terminal-text" font-size="12" fill="#c9d1d9">@%...............*@*..-@#...............</text>
+  <text x="40" y="424" class="terminal-text" font-size="12" fill="#c9d1d9">@=...............-@+.::@-...............</text>
+  <text x="40" y="440" class="terminal-text" font-size="12" fill="#c9d1d9">%.................#=..:*...........&#160;....</text>
   <text x="400" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="#00b4d8">SYSTEM.INFO</text>
   <text x="400" y="120" class="terminal-text" font-size="14" fill="#c9d1d9">gowtham@devos&#160;—</text>
   <text x="400" y="140" class="terminal-text" font-size="14" fill="#c9d1d9">.&#160;Subject:&#160;.......................&#160;Karri&#160;Gowtham&#160;Venkata&#160;Reddy</text>
