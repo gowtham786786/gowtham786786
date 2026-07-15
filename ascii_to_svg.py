@@ -13,7 +13,15 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
     
     if Image and os.path.exists(image_path):
         try:
-            img = Image.open(image_path).convert('L')
+            img = Image.open(image_path)
+            if img.mode in ('RGBA', 'LA') or (img.mode == 'P' and 'transparency' in img.info):
+                bg = Image.new('RGB', img.size, (255, 255, 255))
+                if img.mode == 'RGBA' or img.mode == 'LA':
+                    bg.paste(img, (0, 0), img)
+                else:
+                    bg.paste(img, (0, 0))
+                img = bg
+            img = img.convert('L')
             img = ImageOps.autocontrast(img)
             width = 80
             aspect_ratio = img.height / img.width
@@ -105,18 +113,6 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
         
         base_delay = 1.0 
         typing_speed = 0.08
-        
-        # Generate clip paths for each typed line
-        for i in range(len(system_info)):
-            line_y = 120 + (i * 20) - 15  # 15px above the text baseline
-            delay = base_delay + (i * typing_speed)
-            svg += f'''    <clipPath id="typeLine_{mode}_{i}">
-      <rect x="420" y="{line_y}" width="0" height="25">
-        <animate attributeName="width" from="0" to="560" dur="{typing_speed}s" begin="{delay}s" fill="freeze" />
-      </rect>
-    </clipPath>
-'''
-        
         cursor_begin = base_delay + (len(system_info) * typing_speed)
         
         svg += f'''  </defs>
@@ -162,7 +158,12 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
         last_line_len = 0
         for i, line in enumerate(system_info):
             safe_line = line.replace(' ', '&#160;').replace('<', '&lt;').replace('>', '&gt;')
-            svg += f'    <text x="420" y="{y_offset}" class="terminal-text" font-size="14" fill="{text_color}" clip-path="url(#typeLine_{mode}_{i})">{safe_line}</text>\n'
+            delay = base_delay + (i * typing_speed)
+            svg += f'    <text x="420" y="{y_offset}" class="terminal-text" font-size="14" fill="{text_color}">{safe_line}</text>\n'
+            svg += f'    <rect x="420" y="{y_offset - 15}" width="560" height="25" fill="{bg_color}">\n'
+            svg += f'      <animate attributeName="x" from="420" to="980" dur="{typing_speed}s" begin="{delay}s" fill="freeze" />\n'
+            svg += f'      <animate attributeName="width" from="560" to="0" dur="{typing_speed}s" begin="{delay}s" fill="freeze" />\n'
+            svg += f'    </rect>\n'
             if i == len(system_info) - 1:
                 last_line_len = len(line)
             y_offset += 20
