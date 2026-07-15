@@ -2,7 +2,7 @@ import os
 import sys
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageOps
 except ImportError:
     print("Pillow not installed. Creating default placeholder ASCII art.")
     Image = None
@@ -14,21 +14,23 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
     if Image and os.path.exists(image_path):
         try:
             img = Image.open(image_path).convert('L')
-            width = 46
+            img = ImageOps.autocontrast(img)
+            width = 80
             aspect_ratio = img.height / img.width
             new_height = int(aspect_ratio * width * 0.5)
             img = img.resize((width, new_height))
+            # get_flattened_data or getdata
             pixels = list(img.getdata())
             
             for i in range(0, len(pixels), width):
                 row = pixels[i:i+width]
-                line_str = "".join([chars[int(p / 256 * len(chars))] for p in row])
+                # Invert intensity: 255 (white bg) -> index 0 (space), 0 (black) -> index 9 (@)
+                line_str = "".join([chars[int((255 - p) / 256 * len(chars))] for p in row])
                 ascii_lines.append(line_str)
         except Exception as e:
             print(f"Error processing image {image_path}: {e}")
 
     if not ascii_lines:
-        # Default placeholder ASCII
         ascii_lines = [
             "         .::::.         ",
             "       .::::::::.       ",
@@ -71,15 +73,13 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
 
     def make_svg(bg_color, text_color, highlight_color, stroke_color, filename, mode="dark"):
         svg_width = 1000
-        svg_height = max(len(ascii_lines) * 16, len(system_info) * 20) + 120
+        svg_height = max(len(ascii_lines) * 9, len(system_info) * 20) + 120
         
-        # Determine gradient colors based on mode
         if mode == "dark":
             grad_c1, grad_c2 = "#00b4d8", "#90e0ef"
         else:
             grad_c1, grad_c2 = "#0077b6", "#023e8a"
 
-        # Base SVG start
         svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_width} {svg_height}" width="{svg_width}" height="{svg_height}">
   <style>
     .terminal-text {{ font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace; }}
@@ -101,19 +101,18 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
         <animate attributeName="height" from="0" to="{svg_height}" dur="1s" begin="0s" fill="freeze" />
       </rect>
     </clipPath>
-    
-    <!-- Typing ClipPaths for each line -->
 '''
-        # Generate clip paths for each typed line
-        base_delay = 1.0 # start typing after slide open
-        typing_speed = 0.08 # seconds per line
         
+        base_delay = 1.0 
+        typing_speed = 0.08
+        
+        # Generate clip paths for each typed line
         for i in range(len(system_info)):
-            line_y = 100 + (i * 20) - 15
+            line_y = 120 + (i * 20) - 15  # 15px above the text baseline
             delay = base_delay + (i * typing_speed)
             svg += f'''    <clipPath id="typeLine_{mode}_{i}">
       <rect x="420" y="{line_y}" width="0" height="25">
-        <animate attributeName="width" from="0" to="550" dur="{typing_speed}s" begin="{delay}s" fill="freeze" />
+        <animate attributeName="width" from="0" to="560" dur="{typing_speed}s" begin="{delay}s" fill="freeze" />
       </rect>
     </clipPath>
 '''
@@ -146,29 +145,33 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
     <line x1="0" y1="50" x2="{svg_width}" y2="50" stroke="{stroke_color}" stroke-width="1"/>
     
     <!-- VISUAL.MAP Header -->
-    <text x="40" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_{mode})">VISUAL.MAP</text>
+    <text x="30" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_{mode})">VISUAL.MAP</text>
 '''
         
         # Ascii Art
-        y_offset = 120
+        y_offset = 110
         for line in ascii_lines:
             safe_line = line.replace(' ', '&#160;').replace('<', '&lt;').replace('>', '&gt;')
-            svg += f'    <text x="40" y="{y_offset}" class="terminal-text" font-size="12" fill="url(#animGrad_{mode})">{safe_line}</text>\n'
-            y_offset += 16
+            svg += f'    <text x="30" y="{y_offset}" class="terminal-text" font-size="7.5" fill="url(#animGrad_{mode})">{safe_line}</text>\n'
+            y_offset += 9
             
         # SYSTEM.INFO Header
         svg += f'\n    <text x="420" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_{mode})">SYSTEM.INFO</text>\n'
         
         y_offset = 120
+        last_line_len = 0
         for i, line in enumerate(system_info):
             safe_line = line.replace(' ', '&#160;').replace('<', '&lt;').replace('>', '&gt;')
             svg += f'    <text x="420" y="{y_offset}" class="terminal-text" font-size="14" fill="{text_color}" clip-path="url(#typeLine_{mode}_{i})">{safe_line}</text>\n'
+            if i == len(system_info) - 1:
+                last_line_len = len(line)
             y_offset += 20
             
-        # Blinking Cursor at the end
-        cursor_y = 100 + (len(system_info) * 20)
+        # Blinking Cursor immediately after the last character of the last line
+        cursor_x = 420 + (last_line_len * 8.4) + 5
+        cursor_y = y_offset - 20 - 12
         svg += f'''
-    <rect x="420" y="{cursor_y}" width="10" height="18" fill="{highlight_color}" opacity="0">
+    <rect x="{cursor_x}" y="{cursor_y}" width="8" height="15" fill="{highlight_color}" opacity="0">
       <animate attributeName="opacity" values="0;1;0" dur="1s" begin="{cursor_begin}s" repeatCount="indefinite" />
     </rect>
 
@@ -178,9 +181,7 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(svg)
             
-    # Dark Mode
     make_svg('#0D1117', '#c9d1d9', '#00b4d8', '#30363d', out_dark, "dark")
-    # Light Mode
     make_svg('#ffffff', '#24292f', '#0077b6', '#d0d7de', out_light, "light")
 
 if __name__ == '__main__':
