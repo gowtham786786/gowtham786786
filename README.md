@@ -33,7 +33,7 @@
 <h2 align="center"><code>&gt; cat about_me.txt</code></h2>
 
 <div align="center">
-  <p>Final-Year Computer Science Engineering student passionate about Software Development, Artificial Intelligence, Cloud Computing, and Problem Solving. Enjoys building scalable web applications and AI-powered solutions, and is continuously learning emerging technologies. Currently building an AI-based face-recognition attendance system (Anti-Gravity AI) and preparing for Software Development Engineer roles.</p>
+  <p>Final-Year Computer Science Engineering student passionate about Software Development, Artificial Intelligence, Cloud Computing, and Problem Solving. Enjoys building scalable web applications and AI-powered solutions, and is continuously learning emerging technologies. Currently building an AI-based face-recognition attendance system (Smart AI Attendance System) and preparing for Software Development Engineer roles.</p>
 </div>
 
 <br />
@@ -61,7 +61,7 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">Anti-Gravity AI</h3>
+      <h3 align="center">Smart AI Attendance System</h3>
       <p align="center"><i>AI-Powered Attendance Management System (Latest Capstone)</i></p>
       <p align="center">
         <img src="https://img.shields.io/badge/React.js-0D1117?style=flat-square&logo=react&logoColor=00b4d8" alt="React" />

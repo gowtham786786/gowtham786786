@@ -115,7 +115,7 @@
       <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.32s" fill="freeze" />
       <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.32s" fill="freeze" />
     </rect>
-    <text x="420" y="220" class="terminal-text" font-size="14" fill="#24292f">.&#160;Status:&#160;..........&#160;Building&#160;Anti-Gravity&#160;AI&#160;·&#160;Job&#160;Hunting&#160;·&#160;Learning</text>
+    <text x="420" y="220" class="terminal-text" font-size="14" fill="#24292f">.&#160;Status:&#160;..........&#160;Building&#160;Smart&#160;AI&#160;Attendance&#160;System&#160;·&#160;Job&#160;Hunting&#160;·&#160;Learning</text>
     <rect x="420" y="205" width="560" height="25" fill="#ffffff">
       <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.4s" fill="freeze" />
       <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.4s" fill="freeze" />

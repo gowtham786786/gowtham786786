@@ -60,7 +60,7 @@ def generate_svg(image_path, out_dark="dark.svg", out_light="light.svg"):
         ". Role: ................ Final-Year CSE Student · Software Developer",
         ". Origin: ........................... Andhra Pradesh, India",
         ". Education: ................ B.Tech CSE, KL University, CGPA 91%",
-        ". Status: .......... Building Anti-Gravity AI · Job Hunting · Learning",
+        ". Status: .......... Building Smart AI Attendance System · Job Hunting · Learning",
         ". ToolChain: ..................... VS Code, Git, GitHub, Postman",
         "",
         ". Core.Lang: ................ Java, Python, C, JavaScript",
